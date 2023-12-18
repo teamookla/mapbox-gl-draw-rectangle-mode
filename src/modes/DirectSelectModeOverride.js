@@ -1,5 +1,6 @@
 import MapboxDraw from "@mapbox/mapbox-gl-draw";
-const { createSupplementaryPoints, constrainFeatureMovement } = MapboxDraw.lib;
+import { lib } from '@mapbox/mapbox-gl-draw';
+const { createSupplementaryPoints, constrainFeatureMovement } = lib;
 
 const DirectSelectModeOverride = MapboxDraw.modes.direct_select;
 
