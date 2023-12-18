@@ -80,7 +80,7 @@ DirectSelectModeOverride.dragVertex = function (state, e, delta) {
 
 DirectSelectModeOverride.toDisplayFeatures = function (state, geojson, push) {
   if (state.featureId === geojson.properties.id) {
-    geojson.properties.active = MapboxDraw.constants.activeStates.ACTIVE;
+    geojson.properties.active = constants.activeStates.ACTIVE;
     const isRectangle = geojson?.properties?.user_isRectangle;
     push(geojson);
     createSupplementaryPoints(geojson, {
