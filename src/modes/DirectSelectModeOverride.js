@@ -1,4 +1,3 @@
-import MapboxDraw from "@mapbox/mapbox-gl-draw";
 import { lib } from '@mapbox/mapbox-gl-draw';
 const { createSupplementaryPoints, constrainFeatureMovement } = lib;
 
